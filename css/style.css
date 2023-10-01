@@ -1,32 +1,103 @@
 
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
 
+
+ul {
+    margin: 0
+}
+
+li {
+    margin: 0
+}
 
 .body-color {
-    background-color: salmon;
+    background-color: #E97777;
 }
 
-nav ul li {
-    background-color: #E97777;
-    list-style: none;
-    display: inline-block;
-    margin: 0% 10px;
-}
 header nav {
     background-color: #E97777;
-
 }
-.colorEnvios {
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+ul li {
     background-color: #E97777;
+    padding: .5rem;
+    list-style: none;
+}
+
+ul li a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.titleSection {
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    padding: 0 20px;
+}
+
+.titleContainer {
+    background-color: white;
+    width: fit-content;
+    border-radius: 70%;
+    padding: 20px;
+}
+
+.title {
+    color: #FD8A8A;
+}
+
+.inputSearchContainer {
+    display: flex;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2px;
+    align-items: center;
+    gap: 5px;
+    width: 160px;
+    align-self: flex-end;
+}
+
+input.inputSearch {
+    all: initial;
+}
+
+.shippingSection {
+    padding: 50px 20px;
+    background-color: #ffd99f;
+}
+
+.subTitle {
+    margin-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+.shippingSection p {
+    font-family: 'Lato', sans-serif;
+    color: #7A1594;
 }
 
 .centrar-palabra h1 {
     text-align: center;
 }
+
 footer {
     background-color: #E97777;
 }
 
-/** footer**/ 
+/** footer**/
 .posicion-text {
     list-style: none;
     display: inline-block;
@@ -35,8 +106,22 @@ footer {
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    background-color: white;
     justify-content: space-between;
+    height: 200px;
 }
 
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 500px) {
+
+    /* … */
+
+
+}
