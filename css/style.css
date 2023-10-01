@@ -1,0 +1,42 @@
+
+
+
+.body-color {
+    background-color: salmon;
+}
+
+nav ul li {
+    background-color: #E97777;
+    list-style: none;
+    display: inline-block;
+    margin: 0% 10px;
+}
+header nav {
+    background-color: #E97777;
+
+}
+.colorEnvios {
+    background-color: #E97777;
+}
+
+.centrar-palabra h1 {
+    text-align: center;
+}
+footer {
+    background-color: #E97777;
+}
+
+/** footer**/ 
+.posicion-text {
+    list-style: none;
+    display: inline-block;
+    margin: 0% 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+}
+
