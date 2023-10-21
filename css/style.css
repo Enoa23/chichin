@@ -1,7 +1,12 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
 }
 
 
@@ -14,7 +19,8 @@ li {
 }
 
 .body-color {
-    background-color: #E97777;
+    background-color: #ffd99f;
+    /* background-color: #E97777; */
 }
 
 header nav {
@@ -34,7 +40,7 @@ ul li {
 }
 
 ul li a {
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
     text-decoration: none;
     color: #000;
     font-weight: 500;
@@ -74,20 +80,29 @@ input.inputSearch {
     all: initial;
 }
 
-.shippingSection {
-    padding: 50px 20px;
+.color-section {
+    background-color: #ffd99f;
+    /* margin: ; */
+}
+
+.color-section h1 h2 {
     background-color: #ffd99f;
 }
 
+/* .shippingSection {
+    padding: 50px 20px;
+    background-color: #ffd99f;
+} */
+
 .subTitle {
     margin-bottom: 50px;
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
 }
 
-.shippingSection p {
+/* .shippingSection p {
     font-family: 'Lato', sans-serif;
-    color: #7A1594;
-}
+    /* color: #7A1594; */
+
 
 .centrar-palabra h1 {
     text-align: center;
@@ -95,6 +110,7 @@ input.inputSearch {
 
 footer {
     background-color: #E97777;
+
 }
 
 /** footer**/
@@ -119,9 +135,114 @@ footer {
     align-items: center;
 }
 
+.infoTitle {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 35px;
+    color: white;
+    width: 10px;
+
+
+}
+
 @media (max-width: 500px) {
 
     /* … */
+}
 
 
+/**banner bebe**/
+.banner-bebe {
+    display: flex;
+    width: 100%;
+}
+
+.banner-bebe img {
+    width: 100%;
+    height: 230px;
+    margin: 0 auto;
+}
+.redes-1 {
+    display: flex;
+    gap: 50px;
+
+}
+.face-1 img{
+    
+}
+
+.contenedor-img {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly
+}
+
+.baby-foto2 img {
+    width: 150px;
+    width: 48%;
+    padding: 10px 5px;
+}
+
+.baby-foto2 h3 {
+    text-align: justify
+}
+
+.baby-foto img {
+    width: 100%;
+    padding: 15px 5px;
+}
+
+.baby-foto h3 {
+    text-align: center;
+}
+
+.contenedor-ropa {
+    display: flex;
+    width: auto;
+    height: auto;
+    gap: 1.5625rem;
+    justify-content: space-around;
+    margin: 20px 20px;
+
+    /* align-items: center */
+}
+
+h3 {
+    font-family: 'Comic Neue', cursive;
+    font-weight: bolder;
+}
+
+.ropa-1 img {
+    width: 70%;
+    height: 70%;
+    box-shadow: inset;
+}
+
+.tex-to {
+    text-align: justify;
+    color: #000;
+    text-transform: uppercase;
+    margin: 0 20px;
+    font-family: 'Gluten', cursive;
+}
+
+.comprar-boton {
+    margin: 10px 50px;
+    /*direccion posicion */
+    border: 2px solid brown;
+    border-radius: 15px;
+    /*borde del boton*/
+    font-size: medium;
+    /**tamaño de letra*/
+    padding: 10px 20px;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    font-family: 'Comic Neue', cursive;
+}
+
+/* font-family: 'Comic Neue', cursive; */
+/* font-family: 'Gluten', cursive; */
+/* font-family: 'Pixelify Sans', sans-serif; */
+.nuevos-ingresos {
+    padding: 0 10px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px
 }
