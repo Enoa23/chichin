@@ -50,14 +50,14 @@ ul li a {
     display: flex;
     justify-content: space-between;
     background-color: #D9D9D9;
-    padding: 0 20px;
+    padding: 10px 20px;
 }
 
 .titleContainer {
     background-color: white;
     width: fit-content;
     border-radius: 70%;
-    padding: 20px;
+    padding: 30px 20px;
 }
 
 .title {
@@ -110,6 +110,7 @@ input.inputSearch {
 
 footer {
     background-color: #E97777;
+    /* width: 200%; */
 
 }
 
@@ -137,13 +138,36 @@ footer {
 
 .infoTitle {
     font-family: 'Pixelify Sans', sans-serif;
-    font-size: 35px;
+    font-size: 40px;
     color: white;
+    /* flex-direction: row; */
+    /* margin:5px 5px 5px 5px; */
     width: 10px;
+    /* height: 5px; */
+}
 
+.infoText {
+    font-family: 'Comic Neue', cursive;
+    color: white;
+    /* margin: 25px 25px; */
+    padding: 15px 10px;
+
+    /* font-family: 'Comic Neue', cursive;
+    font-family: 'Gluten', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif; */
+}
+
+.emoji-1 img {
+    margin: 10px;
 
 }
 
+.navbar ul li a {
+    font-family: Comic Neue, cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
 @media (max-width: 500px) {
 
     /* … */
@@ -161,14 +185,16 @@ footer {
     height: 230px;
     margin: 0 auto;
 }
+
 .redes-1 {
     display: flex;
     gap: 50px;
 
 }
-.face-1 img{
-    
-}
+
+/* .face-1 img{ */
+
+/* } */
 
 .contenedor-img {
     display: flex;
@@ -245,4 +271,52 @@ h3 {
     padding: 0 10px;
     font-family: 'Kanit', sans-serif;
     font-size: 30px
+}
+
+/*footer */
+footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    /* Cada li es una columna */
+    gap: 20px;
+    /* Espacio entre las columnas */
+    padding: 20px;
+    /* Espacio alrededor del footer */
+    text-align: center;
+    /* Centra el contenido en las columnas */
+}
+
+ul.flex {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li.box {
+    border: none;
+    /* Sin bordes */
+}
+
+footer button {
+    display: block;
+    margin: 20px 10px;
+    border: 0 solid brown;
+    border-radius: 15px;
+    padding: 20px 20px;
+}
+.color-button {
+    background-color: #E211B4;
+}
+
+/* Estilos para adaptarse a dispositivos móviles */
+@media (max-width: 767px) {
+    footer {
+        grid-template-columns: 1fr;
+        /* Cambia a una sola columna en dispositivos móviles */
+    }
+
+    li.box {
+        margin-bottom: 10px;
+        /* Espacio entre elementos en dispositivos móviles */
+    }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -10,7 +10,7 @@
 
 <body class="body-color">
   <header> <!--- guias--->
-    <nav>
+    <nav class="navbar">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="html/Productos.html">Productos</a></li>
@@ -26,21 +26,22 @@
     <!--- buscador-->
     <section class="titleSection">
       <div class="inputSearchContainer">
-        <label for="que estas buscando">LU</label>
+        <label for="que estas buscando"><img src="./assets/img/img/lupa.png" alt=""></label> <!--buscador con lupa-->
         <input type="text" id="que estas buscando" placeholder="que estas buscando" class="inputSearch" />
       </div>
       <div class="titleContainer">
         <h1 class="title">CHI CHIN G</h1>
       </div>
       <div class="redes-1">
-        <div class="face-1"><img src="./assets/img/img/face2.png" alt="facebook"></div>
-        <div class="insta-1"><img src="./assets/img/img/instagram.png" alt="instagram"></div>
+        <div class="face-1"><img src="./assets/img/img/facebook32.png" alt="facebook"></div>
         <div class="what-1"><img src="./assets/img/img/whatsapp (1).png" alt="whatsapp"></div>
+        <div class="insta-1"><img src="./assets/img/img/instagram (1).png" alt="instagram"></div>
       </div>
     </section>
     <section class="banner-bebe"> <!--banner bebe-->
       <img src="./assets/img/img/bebe-banner 2.jpg" alt="bebe-banner">
     </section>
+
     <!-- <section class="shippingSection"> -->
     <section class="color-section">
       <h2 class="nuevos-ingresos">categorias</h2>
@@ -55,8 +56,6 @@
         </div>
       </div>
     </section>
-
-
     <section class="color-section">
       <h3 class="nuevos-ingresos">nuevos ingresos</h3> <!--catalogo de nuevo ingresos-->
       <div class="contenedor-ropa">
@@ -92,34 +91,42 @@
   </main>
 
   <footer> <!--pies de pagina-->
-    <ul class="flex">
-      <li class="box">
-        <p class="infoTitle">seguinos</p>
-        <div>
-          <div>FB</div>
-          <div>IG</div>
-          <div>WP</div>
+    <ul>
+      <li>
+        <p class="infoTitle">Seguinos</p>
+        <div class="emoji-1">
+          <div><img src="../assets/img/img/footer/face2.png" alt="facebook"></div>
+          <div><img src="../assets/img/img/footer/instagram.png" alt="instagram"></div>
+          <div><img src="../assets/img/img/footer/whatsapp.png" alt="whatsapp"></div>
         </div>
       </li>
-      <li class="box">
-        <p class="infoTitle">informacion</p>
-        <p>guia de talles</p>
-        <p>Terminos y condiciones</p>
-        <p>Cambios y devoluciones</p>
+
+      <li>
+        <p class="infoTitle">Informacion</p>
+
+        <p  class="infoText">guia de talles</p>
+        <p  class="infoText">Terminos y condiciones</p>
+        <p  class="infoText">Cambios y devoluciones</p>
       </li>
-      <li class="box">
-        <p class="infoTitle">contenido</p>
-        <p>1156965869</p>
+ 
+      <li>
+        <p class="infoTitle">Contactanos</p>
+
+        <p class="infoText">1156965869</p>
       </li>
-      <li class="box">
+
+      <li>
         <p class="infoTitle">suscribete</p>
         <button>EMAIL</button>
-        <button>ENVIAR</button>
+        <button class="color-button">ENVIAR</button>
       </li>
     </ul>
 
 
   </footer>
+
+
+
 
 
 
