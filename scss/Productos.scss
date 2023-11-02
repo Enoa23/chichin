@@ -1,0 +1,25 @@
+.section-ropa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: start;
+    gap: 50px;
+    margin: 40px;
+}
+
+.cards-1 {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-ropa img {
+    border-radius: 20px;
+    box-shadow: 0 0 20px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}

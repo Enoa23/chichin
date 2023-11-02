@@ -1,0 +1,37 @@
+/*** QUIENES SOMOS *******/
+
+.quienes-1 {
+    display: flex;
+    background-color: salmon;
+    width: 90%;
+    margin: 65px 62px;
+    padding: 40px 10px;
+    border: solid purple;
+
+    img {
+        display: flex;
+        padding: 15px;
+        height: 350px;
+    }
+}
+
+.quienes-text h1 {
+    /***titulo quienes**/
+    display: grid;
+    margin: 20px;
+    font-family: Comic Neue, cursive;
+    font-size: 30px;
+}
+
+.quienes-img {
+    margin: 10px 50px;
+
+    /* padding: 0% 30px; */
+}
+
+.text-quienes {
+    /* justify-content: space-evenly; */
+    padding: 10px 5px;
+    font-size: larger;
+}
+
